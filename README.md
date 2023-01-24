@@ -42,4 +42,4 @@ In this project I practiced more about javascript and its array, I managed to le
 
 ## 📲 Links
 
-- Live Site URL:
+- Live Site URL: https://teal-phoenix-166164.netlify.app/
