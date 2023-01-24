@@ -1,0 +1,141 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  
+} 
+
+:root {
+   font-size: 62.5%;
+}
+
+.hiden {
+ display: none;
+}
+
+body{
+   background: linear-gradient(45deg, #190361, #bb00ff);
+   overflow: hidden;
+   animation: gradient 10s ease infinite;
+   background-size: 200% 200%;
+}
+
+div.first-card {
+   background-color: #ffffff;
+   border-radius: 5px;
+   box-shadow: 0px 9px 38px 1px rgba(0,0,0,0.81);
+
+   margin: 23.9rem auto;
+   width: 43.0rem;
+   height: 42.0rem;
+
+   text-align: center;
+}
+
+/* primeiro card*/
+
+p.title {
+   font-family: 'Montserrat', sans-serif;
+   
+   font-size: 1.7rem;
+   padding-top: 4.8rem;
+   margin: 0 auto;
+
+   width: 20.0rem;
+}
+
+p {
+   font-family: 'DM Sans', sans-serif;
+   font-size: 1.5rem;
+   padding: 1.9rem 0rem 2.0rem 0rem;
+}
+
+div.first-card img {
+   padding-top: 2.0rem;
+   cursor: pointer;
+}
+
+div.first-card img:hover {
+   animation: treme 0.1s infinite;
+}
+
+/*segundo card*/
+
+div.second-card {
+   background-color: #ffffff;
+   border-radius: 5px;
+   box-shadow: 0px 9px 38px 1px rgba(0,0,0,0.81);
+
+   margin: 15.9rem auto;
+   width: 43.0rem;
+   height: 61.0rem;
+ 
+   text-align: center;
+}
+
+div.card-message {
+   background-color: #E4EDF1;
+   box-shadow: 4px 6px 7px 4px rgba(173,173,173,1);
+
+   margin-top: 1.7rem;
+   width: 30.0rem;
+   margin: 20px auto;
+
+   animation: moveCard 2s ease-in;
+}
+
+div.card-message p{
+   font-family: 'Dancing script', sans-serif;
+   font-size: 2.4rem;
+}
+
+div.second-card img {
+   margin-top: 5.0rem;
+}
+
+button {
+   border: none;
+   background-color:#FF9500;
+   border-radius: 5px;
+   color: white;
+   
+   margin-top: 7.0rem;
+   padding: 16px;
+
+   font-family: 'DM sans',sans-serif;
+   font-weight: bold;
+   
+   cursor: pointer;
+}
+
+
+@keyframes moveCard {
+   from {
+      opacity: 0;
+    
+   }
+
+   to {
+      opacity: 1;
+   }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes treme {
+   0% {margin-left: 0;}
+   25% {margin-left: 5px;}
+   50% {margin-left: 0;}
+   75% {margin-left: -5px;}
+   100% {margin-left: 0;}
+ }
