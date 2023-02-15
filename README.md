@@ -3,7 +3,7 @@
 <h1 align="center"> Fortune Cookie <img src="./assets/img/_Group_.png" width="26"></h1>
 
 <p align="center">
-Project dedicated to focus in Study and Work
+Project dedicated to watch motivation phareses
 </p>
 
 <p align="center">
